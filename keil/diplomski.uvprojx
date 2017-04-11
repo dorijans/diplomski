@@ -335,7 +335,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F303xC, USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\;.\Lib;.\header;.\src;.\Lib\Include;.\Lib\STM32F30x_StdPeriph_Driver\inc;.\Lib\STM32F30x_StdPeriph_Driver\src</IncludePath>
+              <IncludePath>.\;.\Lib;.\inc;.\src;.\Lib\Include;.\Lib\STM32F30x_StdPeriph_Driver\inc;.\Lib\STM32F30x_StdPeriph_Driver\src</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -378,6 +378,18 @@
       <Groups>
         <Group>
           <GroupName>Inc</GroupName>
+          <Files>
+            <File>
+              <FileName>main.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\inc\main.h</FilePath>
+            </File>
+            <File>
+              <FileName>gpio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\inc\gpio.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Src</GroupName>
@@ -386,6 +398,11 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\gpio.c</FilePath>
             </File>
           </Files>
         </Group>
