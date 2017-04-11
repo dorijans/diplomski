@@ -16,6 +16,7 @@ if (TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET)
 int main(void)
 {
 	gpio_Config_LED();
+	gpio_Config_MCO();
 	
 	
 	
