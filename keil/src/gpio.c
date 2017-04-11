@@ -2,7 +2,7 @@
 
 
 
-void gpio_Config()
+void gpio_Config_LED()
 {
 	GPIO_InitTypeDef GPIO_InitStruct;
 	

@@ -5,6 +5,6 @@
 #include <stm32f30x_gpio.h> 
 #include <stm32f30x_rcc.h> 
 
-void gpio_Config(void);
+void gpio_Config_LED(void);
 
 #endif
