@@ -14,7 +14,7 @@ void gpio_Config_LED()
 	GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
 	GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_NOPULL;
-	GPIO_Init(GPIOD, &GPIO_InitStruct);
+	GPIO_Init(GPIOB, &GPIO_InitStruct);
 }
 
 void gpio_Config_MCO(void)
